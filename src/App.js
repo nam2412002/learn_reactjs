@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Album1 from './features/Albumfeatures';
+
+// import TodoFeature from './features/Todo'; // Đảm bảo rằng đường dẫn này chính xác
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          nam pham van
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <TodoFeature /> */}
+  <Album1/>
     </div>
   );
 }
