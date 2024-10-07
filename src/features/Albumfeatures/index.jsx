@@ -30,7 +30,7 @@ function Album1(props) {
             <h2>nghe khong ?</h2>
         <AlbumList albumList={ab}/>
 
-        
+    
         </div>
     );
 }
